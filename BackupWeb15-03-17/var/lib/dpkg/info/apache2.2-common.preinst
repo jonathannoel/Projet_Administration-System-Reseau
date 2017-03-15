@@ -1,0 +1,35 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/disk_cache.conf 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/authz_default.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/authn_default.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/mem_cache.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/mem_cache.conf 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/authn_alias.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/cern_meta.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/disk_cache.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/disk_cache.conf 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/imagemap.load 2.4.10-6~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/version.load 2.4.10-6~ -- "$@"
+# End automatically added section

@@ -1,0 +1,15 @@
+/.
+/lib
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/cpp
+/usr/share/doc/cpp/changelog.Debian.gz
+/usr/share/doc/cpp/copyright
+/usr/share/doc/cpp/README.Debian
+/usr/share/man
+/usr/share/man/man7
+/usr/share/man/man1
+/usr/bin
+/usr/bin/x86_64-linux-gnu-cpp
+/usr/bin/cpp

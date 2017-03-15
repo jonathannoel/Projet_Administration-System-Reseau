@@ -1,0 +1,7 @@
+TARGETS = apache2 urandom hwclock.sh sendsigs umountnfs.sh umountfs umountroot halt reboot
+sendsigs: apache2
+umountnfs.sh: sendsigs apache2
+umountfs: urandom umountnfs.sh hwclock.sh apache2
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

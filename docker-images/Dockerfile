@@ -4,6 +4,9 @@
 
 FROM php:5.6-apache
 
+# Driver pour la connection BD avec PDO
+RUN docker-php-ext-install pdo pdo_mysql
+
 # Copie les dossiers contenant les sites web
 COPY content/ /var/www/html/
 
@@ -16,5 +19,5 @@ COPY sites-available/ /etc/apache2/sites-available/
 # docker build -t res/apache_php .
 #
 # Pour lancer Apache
-# docker run -d -p 9090:80 res/apache_php
+# docker run -d -p 80:80 res/apache_php
 #=============================================================================
