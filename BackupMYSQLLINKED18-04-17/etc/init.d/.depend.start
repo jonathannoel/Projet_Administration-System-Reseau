@@ -1,0 +1,5 @@
+TARGETS = killprocs apache2 motd bootlogs single rc.local rmnologin
+INTERACTIVE = apache2
+single: killprocs motd bootlogs
+rc.local: motd bootlogs apache2
+rmnologin: motd bootlogs apache2
