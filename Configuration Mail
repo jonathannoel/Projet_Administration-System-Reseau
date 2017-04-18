@@ -1,0 +1,56 @@
+MAIL
+Image: catatnight/postfix
+https://hub.docker.com/r/catatnight/postfix/
+Utilisation de postfix et dovecot(IMAP)
+
+Dockerfile
+FROM catanight/postfix:latest
+EXPOSE 25
+COPY postfix/ /etc/postfix
+
+Docker run:
+Dokcer run -p 25:25 -e maildomain=mail.wt11.ephec-ti.be -e smtp_user=user:pwd --name postfix_c -d postfix
+
+Entrer dans le container:
+Docker exec -it postfix_c bash
+
+Fichier de configuration:
+:Main.cf se situant dans /etc/postfix/main.cf
+●	myhostname : c'est le nom de votre serveur de courriel, configuré dans les entrées MX, par défaut mail.domaine.net
+●	mydestination : ceci est la concordance des domaines, remplacez Final-Fantasy par votre nom de machine, et FF-IRC.net par votre domaine
+●	mynetworks : permet de donner l'accès au serveur SMTP, en plus des 2 exemples, rajoutez votre IP extérieure si votre serveur n'est pas sur le même réseau que votre PC
+●	home_mailbox = Maildir/ : Ceci est important ! Nous choisissons le format Maildir en accord avec le serveur IMAP ! Vous ne pourrez pas recevoir vos courriels par IMAP si cette ligne n'est pas ajoutée au fichier de configuration de Postfix !
+
+
+Idée: plutôt que de taper une commade de 50km, autant remplacer le main.cf par la config que nous voulons nous!
+Restart postfix: /etc/init.d/postfix restart
+
+Copier un dossier du container en local:
+Docker cp  container_id:/path/rep /path/
+Container_id:chemin_container /cheminlocal
+
+Commande tapé depuis le ssh depuis le dossier /docker/mail:
+Docker container_id:/ect/postfix .
+A copier le répertoire postfix avec tout son contenu dans /docker/mail/postfix
+
+Créer un fichier virtual
+Mapper le fichier: postmap virtual
+Y placer adresse@mail user
+Exemples:
+root@wt11.ephec-ti.be	root
+
+LOGS
+/var/log/mail.log
+
+Tutorial:
+http://blog.zone42.fr/2012/07/14/configurer-postfix-et-dovecot-avec-uniquement-des-fichiers-textes.html
+LOGS DOCKERS:
+Docker logs container_id
+
+Fichiers “aliases”
+/etc/aliases et /etc/aliases.db
+Permettent de faire correspondre un compte avec une adresse mail.
+Aliases est un fichier texte contenant les informations d’aliases.
+Aliases.db est lui la base de donnée, basée sur le fichier texte aliases.
+
+Rafraîchir aliases.db après un changement dans aliases → newaliases ou postaliases.
