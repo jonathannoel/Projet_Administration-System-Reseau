@@ -1,0 +1,4 @@
+[09/Apr/2017:11:51:13 +0000] miniserv.pl started
+[09/Apr/2017:11:51:13 +0000] IPv6 support cannot be enabled without the Socket6 perl module
+[09/Apr/2017:11:51:13 +0000] Using MD5 module Digest::MD5
+[09/Apr/2017:11:51:13 +0000] PAM authentication enabled

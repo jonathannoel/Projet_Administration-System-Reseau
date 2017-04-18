@@ -1,0 +1,227 @@
+$VAR1 = [
+          {
+            'update' => 'bind9',
+            'arch' => 'amd64',
+            'name' => 'bind9',
+            'source' => 'trusty-security',
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'system' => 'apt'
+          },
+          {
+            'update' => 'bind9-host',
+            'arch' => 'amd64',
+            'name' => 'bind9-host',
+            'source' => 'trusty-security',
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'epoch' => '1',
+            'source' => 'trusty-security',
+            'name' => 'bind9utils',
+            'arch' => 'amd64',
+            'update' => 'bind9utils'
+          },
+          {
+            'source' => 'trusty-security',
+            'name' => 'eject',
+            'arch' => 'amd64',
+            'update' => 'eject',
+            'system' => 'apt',
+            'version' => '2.1.5+deb1+cvs20081104-13.1ubuntu0.14.04.1'
+          },
+          {
+            'source' => 'trusty-updates',
+            'name' => 'initramfs-tools',
+            'arch' => 'all',
+            'update' => 'initramfs-tools',
+            'system' => 'apt',
+            'version' => '0.103ubuntu4.7'
+          },
+          {
+            'arch' => 'amd64',
+            'update' => 'initramfs-tools-bin',
+            'source' => 'trusty-updates',
+            'name' => 'initramfs-tools-bin',
+            'version' => '0.103ubuntu4.7',
+            'system' => 'apt'
+          },
+          {
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'epoch' => '1',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libbind9-90',
+            'source' => 'trusty-security',
+            'name' => 'libbind9-90'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.19-0ubuntu6.11',
+            'source' => 'trusty-security',
+            'name' => 'libc-bin',
+            'arch' => 'amd64',
+            'update' => 'libc-bin'
+          },
+          {
+            'version' => '2.19-0ubuntu6.11',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libc6',
+            'source' => 'trusty-security',
+            'name' => 'libc6'
+          },
+          {
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'system' => 'apt',
+            'update' => 'libdns100',
+            'arch' => 'amd64',
+            'name' => 'libdns100',
+            'source' => 'trusty-security'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.12.23-12ubuntu2.7',
+            'source' => 'trusty-security',
+            'name' => 'libgnutls-openssl27',
+            'arch' => 'amd64',
+            'update' => 'libgnutls-openssl27'
+          },
+          {
+            'update' => 'libgnutls26',
+            'arch' => 'amd64',
+            'name' => 'libgnutls26',
+            'source' => 'trusty-security',
+            'version' => '2.12.23-12ubuntu2.7',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libgssapi-krb5-2',
+            'source' => 'trusty-updates',
+            'update' => 'libgssapi-krb5-2',
+            'arch' => 'amd64',
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.3'
+          },
+          {
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'epoch' => '1',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libisc95',
+            'source' => 'trusty-security',
+            'name' => 'libisc95'
+          },
+          {
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'epoch' => '1',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libisccc90',
+            'source' => 'trusty-security',
+            'name' => 'libisccc90'
+          },
+          {
+            'version' => '9.9.5.dfsg-3ubuntu0.13',
+            'epoch' => '1',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libisccfg90',
+            'source' => 'trusty-security',
+            'name' => 'libisccfg90'
+          },
+          {
+            'name' => 'libk5crypto3',
+            'source' => 'trusty-updates',
+            'update' => 'libk5crypto3',
+            'arch' => 'amd64',
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.3'
+          },
+          {
+            'name' => 'libkrb5-3',
+            'source' => 'trusty-updates',
+            'update' => 'libkrb5-3',
+            'arch' => 'amd64',
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.3'
+          },
+          {
+            'version' => '1.12+dfsg-2ubuntu5.3',
+            'system' => 'apt',
+            'arch' => 'amd64',
+            'update' => 'libkrb5support0',
+            'source' => 'trusty-updates',
+            'name' => 'libkrb5support0'
+          },
+          {
+            'name' => 'liblwres90',
+            'source' => 'trusty-security',
+            'update' => 'liblwres90',
+            'arch' => 'amd64',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.13'
+          },
+          {
+            'update' => 'libssl1.0.0',
+            'arch' => 'amd64',
+            'name' => 'libssl1.0.0',
+            'source' => 'trusty-security',
+            'version' => '1.0.1f-1ubuntu2.22',
+            'system' => 'apt'
+          },
+          {
+            'arch' => 'amd64',
+            'update' => 'libudev1',
+            'source' => 'trusty-updates',
+            'name' => 'libudev1',
+            'version' => '204-5ubuntu20.24',
+            'system' => 'apt'
+          },
+          {
+            'arch' => 'amd64',
+            'update' => 'libxml2',
+            'source' => 'trusty-security',
+            'name' => 'libxml2',
+            'version' => '2.9.1+dfsg1-3ubuntu4.9',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'makedev',
+            'source' => 'trusty-updates',
+            'update' => 'makedev',
+            'arch' => 'all',
+            'system' => 'apt',
+            'version' => '2.3.1-93ubuntu2~ubuntu14.04.1'
+          },
+          {
+            'name' => 'multiarch-support',
+            'source' => 'trusty-security',
+            'update' => 'multiarch-support',
+            'arch' => 'amd64',
+            'system' => 'apt',
+            'version' => '2.19-0ubuntu6.11'
+          },
+          {
+            'source' => 'trusty-security',
+            'name' => 'openssl',
+            'arch' => 'amd64',
+            'update' => 'openssl',
+            'system' => 'apt',
+            'version' => '1.0.1f-1ubuntu2.22'
+          },
+          {
+            'system' => 'apt',
+            'version' => '204-5ubuntu20.24',
+            'name' => 'udev',
+            'source' => 'trusty-updates',
+            'update' => 'udev',
+            'arch' => 'amd64'
+          }
+        ];

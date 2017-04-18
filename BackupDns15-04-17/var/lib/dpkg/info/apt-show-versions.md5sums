@@ -1,0 +1,10 @@
+2fc0e1cdb747a952452d8883180a7310  usr/bin/apt-show-versions
+ce9bfb63767b959929d5954cca0ffd08  usr/share/doc/apt-show-versions/NEWS.Debian.gz
+919487feb357c5c226067ffd08683182  usr/share/doc/apt-show-versions/changelog.gz
+1d5fb3fdbbbfda7819d333ef5a80d61d  usr/share/doc/apt-show-versions/copyright
+72a64fdb172a13a98495d559956c83a9  usr/share/man/de/man1/apt-show-versions.1.gz
+9f7321f6547d9576de859c1f63eaa066  usr/share/man/es/man1/apt-show-versions.1.gz
+45fa966b422cef837c76c8fcfd7531e0  usr/share/man/fr/man1/apt-show-versions.1.gz
+fdd5168c91bbc14f78ffc358c3da31b6  usr/share/man/man1/apt-show-versions.1p.gz
+03f3f23fe4d5499c16754fc9060f8aef  usr/share/man/sv/man1/apt-show-versions.1.gz
+e7f8c8df5c7969ddbad6f775f959d998  usr/share/man/vi/man1/apt-show-versions.1.gz

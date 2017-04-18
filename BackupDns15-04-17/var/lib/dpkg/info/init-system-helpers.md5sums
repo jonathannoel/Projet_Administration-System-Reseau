@@ -1,0 +1,5 @@
+0f5a2a782448c78590d107dfac388e9c  usr/bin/deb-systemd-helper
+cf6fbc9f820978642fdd56139f88601e  usr/bin/deb-systemd-invoke
+51a35be4ad6bc31146cbdf6541010205  usr/share/doc/init-system-helpers/changelog.gz
+075e9e6bd3cafae8a0bb89858f86b9cd  usr/share/doc/init-system-helpers/copyright
+582ddbf1017b5f65e0a6ea5a988a726a  usr/share/man/man1/deb-systemd-helper.1p.gz

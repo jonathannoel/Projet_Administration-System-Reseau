@@ -1,0 +1,5 @@
+#!/bin/true
+# systemd as pid 1 and for /lib/systemd/system/ is not supported in Ubuntu
+# 14.04. It is only supported as "deputy init" running as an upstart job and
+# handling /lib/systemd/upstart/ (and /{run,etc}/systemd/system as usual). This
+# completely disables the handling of systemd units shipped by Ubuntu packages.

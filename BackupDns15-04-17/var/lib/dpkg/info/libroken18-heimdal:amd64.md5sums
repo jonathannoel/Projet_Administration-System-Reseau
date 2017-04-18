@@ -1,0 +1,4 @@
+08e98b704d04aab70693a592b98c03d4  usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+d9378f90aa32b770feb15e65fd0a2720  usr/share/doc/libroken18-heimdal/changelog.Debian.gz
+f932bf346a38dc8820bde606a033564b  usr/share/doc/libroken18-heimdal/copyright
+4c8c72b927c3b6d985e7183dbe70e5e4  usr/share/lintian/overrides/libroken18-heimdal

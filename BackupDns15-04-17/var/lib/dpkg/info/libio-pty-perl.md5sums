@@ -1,0 +1,11 @@
+436d85ad26ab569e17682098c4215eec  usr/lib/perl5/IO/Pty.pm
+67a1a02d7fb419252de3bc6767937384  usr/lib/perl5/IO/Tty.pm
+81dbe072d517523c01e6e09533c31400  usr/lib/perl5/IO/Tty/Constant.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/IO/Tty/Tty.bs
+020b872c59b37f51807a6eda7b1ede8b  usr/lib/perl5/auto/IO/Tty/Tty.so
+f1b90a735cc5ea13c3612df23e9e90ec  usr/share/doc/libio-pty-perl/changelog.Debian.gz
+8c059b1cf5f96f96472c20d63ba8af3f  usr/share/doc/libio-pty-perl/copyright
+8fa67cc98d1548bec76b626416443680  usr/share/doc/libio-pty-perl/examples/try
+fb6fe0cee96dd6a00d9dcf37da17586a  usr/share/man/man3/IO::Pty.3pm.gz
+783f40e1e584b53b89f5536555e8bf4c  usr/share/man/man3/IO::Tty.3pm.gz
+90bffe6e3860088622d9a1cb6e1563fa  usr/share/man/man3/IO::Tty::Constant.3pm.gz

@@ -1,0 +1,5 @@
+db7f3ccf33be13d258f66ef7e2340282  usr/lib/initramfs-tools/bin/rzscontrol
+ab59a700b9ef8653df8ba5dfae6ee183  usr/lib/initramfs-tools/bin/wait-for-root
+566af7ca3c9e93e3bba964745c7a9b6c  usr/share/doc/initramfs-tools-bin/NEWS.Debian.gz
+30aeb77aa9a6084deef4cc961067b4f3  usr/share/doc/initramfs-tools-bin/changelog.gz
+ea83b389ce3159f09eef7a73760b9e46  usr/share/doc/initramfs-tools-bin/copyright

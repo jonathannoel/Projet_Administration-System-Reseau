@@ -1,0 +1,34 @@
+Format-Specification:
+    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
+Upstream-Maintainer: Nikolay Pelov
+Upstream-Source: http://search.cpan.org/dist/Authen-PAM/
+Upstream-Name: Authen-PAM
+
+Files: *
+Copyright: © 1998-2005, Nikolay Pelov
+License-Alias: Perl
+License: Artistic | GPL-1+
+
+Files: debian/*
+Copyright:
+ © 1999-2000, Ben Collins <bcollins@debian.org>
+ © 1999,      Raphael Hertzog <rhertzog@hrnet.fr>
+ © 2000-2005, Davide Puricelli (evo) <evo@debian.org>
+ © 2005,      Florian Ragwitz <rafl@debian.org>
+ © 2008,      Niko Tyni <ntyni@debian.org>
+ © 2009,      Ansgar Burchardt <ansgar@43-1.org>
+License: Artistic | GPL-1+
+
+License: Artistic
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the Artistic License, which comes with Perl.
+    On Debian GNU/Linux systems, the complete text of the Artistic License
+    can be found in `/usr/share/common-licenses/Artistic'
+
+License: GPL-1+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 1, or (at your option)
+    any later version.
+    On Debian GNU/Linux systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL'

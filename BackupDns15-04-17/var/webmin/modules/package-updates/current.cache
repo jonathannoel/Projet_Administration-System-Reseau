@@ -1,0 +1,1866 @@
+$VAR1 = [
+          {
+            'epoch' => undef,
+            'version' => '3.113+nmu3ubuntu3',
+            'system' => 'apt',
+            'update' => 'adduser',
+            'desc' => 'all                                                                                                                                add and remove users and groups',
+            'name' => 'adduser'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.0.1ubuntu2.17',
+            'name' => 'apt',
+            'desc' => 'amd64                                                                                                                              commandline package manager',
+            'update' => 'apt'
+          },
+          {
+            'version' => '0.22.3',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'apt-show-versions',
+            'desc' => 'all                                                                                                                                lists available package versions with distribution',
+            'name' => 'apt-show-versions'
+          },
+          {
+            'update' => 'apt-transport-https',
+            'desc' => 'amd64                                                                                                                              https download transport for APT',
+            'name' => 'apt-transport-https',
+            'epoch' => undef,
+            'version' => '1.0.1ubuntu2.17',
+            'system' => 'apt'
+          },
+          {
+            'version' => '1.0.1ubuntu2.17',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              package management related utility programs',
+            'update' => 'apt-utils',
+            'name' => 'apt-utils'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '7.2ubuntu5.5',
+            'name' => 'base-files',
+            'desc' => 'amd64                                                                                                                              Debian base system miscellaneous files',
+            'update' => 'base-files'
+          },
+          {
+            'version' => '3.5.33',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'base-passwd',
+            'desc' => 'amd64                                                                                                                              Debian base system master password and group files',
+            'name' => 'base-passwd'
+          },
+          {
+            'system' => 'apt',
+            'version' => '4.3-7ubuntu1.5',
+            'epoch' => undef,
+            'name' => 'bash',
+            'update' => 'bash',
+            'desc' => 'amd64                                                                                                                              GNU Bourne Again SHell'
+          },
+          {
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Internet Domain Name Server',
+            'update' => 'bind9',
+            'name' => 'bind9'
+          },
+          {
+            'system' => 'apt',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'name' => 'bind9-host',
+            'update' => 'bind9-host',
+            'desc' => 'amd64                                                                                                                              Version of \'host\' bundled with BIND 9.X'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Utilities for BIND',
+            'update' => 'bind9utils',
+            'name' => 'bind9utils',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Basic utilities from 4.4BSD-Lite',
+            'update' => 'bsdutils',
+            'name' => 'bsdutils',
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'busybox-initramfs',
+            'desc' => 'amd64                                                                                                                              Standalone shell setup for initramfs',
+            'update' => 'busybox-initramfs',
+            'system' => 'apt',
+            'version' => '1.21.0-1ubuntu1',
+            'epoch' => '1'
+          },
+          {
+            'update' => 'bzip2',
+            'desc' => 'amd64                                                                                                                              high-quality block-sorting file compressor - utilities',
+            'name' => 'bzip2',
+            'epoch' => undef,
+            'version' => '1.0.6-5',
+            'system' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'version' => '20160104ubuntu0.14.04.1',
+            'system' => 'apt',
+            'update' => 'ca-certificates',
+            'desc' => 'all                                                                                                                                Common CA certificates',
+            'name' => 'ca-certificates'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.70ubuntu8',
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                console font and keymap setup program',
+            'update' => 'console-setup',
+            'name' => 'console-setup'
+          },
+          {
+            'version' => '8.21-1ubuntu5.4',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              GNU core utilities',
+            'update' => 'coreutils',
+            'name' => 'coreutils'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.11+dfsg-1ubuntu1.2',
+            'epoch' => undef,
+            'name' => 'cpio',
+            'update' => 'cpio',
+            'desc' => 'amd64                                                                                                                              GNU cpio -- a program to manage archives of files'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '3.0pl1-124ubuntu2',
+            'name' => 'cron',
+            'desc' => 'amd64                                                                                                                              process scheduling daemon',
+            'update' => 'cron'
+          },
+          {
+            'system' => 'apt',
+            'version' => '0.5.7-4ubuntu1',
+            'epoch' => undef,
+            'name' => 'dash',
+            'update' => 'dash',
+            'desc' => 'amd64                                                                                                                              POSIX-compliant shell'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.5.51ubuntu2',
+            'system' => 'apt',
+            'update' => 'debconf',
+            'desc' => 'all                                                                                                                                Debian configuration management system',
+            'name' => 'debconf'
+          },
+          {
+            'name' => 'debconf-i18n',
+            'desc' => 'all                                                                                                                                full internationalization support for debconf',
+            'update' => 'debconf-i18n',
+            'system' => 'apt',
+            'version' => '1.5.51ubuntu2',
+            'epoch' => undef
+          },
+          {
+            'epoch' => undef,
+            'version' => '4.4',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Miscellaneous utilities specific to Debian',
+            'update' => 'debianutils',
+            'name' => 'debianutils'
+          },
+          {
+            'name' => 'dh-python',
+            'desc' => 'all                                                                                                                                Debian helper tools for packaging Python libraries and applications',
+            'update' => 'dh-python',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.20140128-1ubuntu8.2'
+          },
+          {
+            'update' => 'diffutils',
+            'desc' => 'amd64                                                                                                                              File comparison utilities',
+            'name' => 'diffutils',
+            'version' => '3.3-1',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Linux Kernel Device Mapper userspace library',
+            'update' => 'dmsetup',
+            'name' => 'dmsetup',
+            'version' => '1.02.77-6ubuntu2',
+            'epoch' => '2',
+            'system' => 'apt'
+          },
+          {
+            'version' => '1.17.5ubuntu5.7',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'dpkg',
+            'desc' => 'amd64                                                                                                                              Debian package management system',
+            'name' => 'dpkg'
+          },
+          {
+            'name' => 'e2fslibs',
+            'update' => 'e2fslibs',
+            'desc' => 'amd64                                                                                                                              ext2/ext3/ext4 file system libraries',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.42.9-3ubuntu1.3'
+          },
+          {
+            'name' => 'e2fsprogs',
+            'update' => 'e2fsprogs',
+            'desc' => 'amd64                                                                                                                              ext2/ext3/ext4 file system utilities',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.42.9-3ubuntu1.3'
+          },
+          {
+            'version' => '2.1.5+deb1+cvs20081104-13.1',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              ejects CDs and operates CD-Changers under Linux',
+            'update' => 'eject',
+            'name' => 'eject'
+          },
+          {
+            'update' => 'file',
+            'desc' => 'amd64                                                                                                                              Determines file type using "magic" numbers',
+            'name' => 'file',
+            'version' => '5.14-2ubuntu3.3',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'version' => '4.4.2-7',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'findutils',
+            'desc' => 'amd64                                                                                                                              utilities for finding files--find, xargs',
+            'name' => 'findutils'
+          },
+          {
+            'update' => 'gcc-4.8-base',
+            'desc' => 'amd64                                                                                                                              GCC, the GNU Compiler Collection (base package)',
+            'name' => 'gcc-4.8-base',
+            'epoch' => undef,
+            'version' => '4.8.4-2ubuntu1~14.04.3',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '4.9.3-0ubuntu4',
+            'name' => 'gcc-4.9-base',
+            'desc' => 'amd64                                                                                                                              GCC, the GNU Compiler Collection (base package)',
+            'update' => 'gcc-4.9-base'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.4.16-1ubuntu2.4',
+            'system' => 'apt',
+            'update' => 'gnupg',
+            'desc' => 'amd64                                                                                                                              GNU privacy guard - a free PGP replacement',
+            'name' => 'gnupg'
+          },
+          {
+            'update' => 'gpgv',
+            'desc' => 'amd64                                                                                                                              GNU privacy guard - signature verification tool',
+            'name' => 'gpgv',
+            'epoch' => undef,
+            'version' => '1.4.16-1ubuntu2.4',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.16-1',
+            'epoch' => undef,
+            'name' => 'grep',
+            'update' => 'grep',
+            'desc' => 'amd64                                                                                                                              GNU grep, egrep and fgrep'
+          },
+          {
+            'name' => 'gzip',
+            'update' => 'gzip',
+            'desc' => 'amd64                                                                                                                              GNU compression utilities',
+            'system' => 'apt',
+            'version' => '1.6-3ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'name' => 'hostname',
+            'update' => 'hostname',
+            'desc' => 'amd64                                                                                                                              utility to set/show the host name or domain name',
+            'system' => 'apt',
+            'version' => '3.15ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'version' => '0.7.47.2ubuntu4.4',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              high level tools to configure network interfaces',
+            'update' => 'ifupdown',
+            'name' => 'ifupdown'
+          },
+          {
+            'name' => 'init-system-helpers',
+            'desc' => 'all                                                                                                                                helper tools for all init systems',
+            'update' => 'init-system-helpers',
+            'system' => 'apt',
+            'version' => '1.14ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.103ubuntu4.6',
+            'name' => 'initramfs-tools',
+            'update' => 'initramfs-tools',
+            'desc' => 'all                                                                                                                                tools for generating an initramfs'
+          },
+          {
+            'version' => '0.103ubuntu4.6',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              binaries used by initramfs-tools',
+            'update' => 'initramfs-tools-bin',
+            'name' => 'initramfs-tools-bin'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2.88dsf-41ubuntu6.3',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              scripts for initializing and shutting down the system',
+            'update' => 'initscripts',
+            'name' => 'initscripts'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.14.0-5ubuntu2',
+            'epoch' => undef,
+            'name' => 'insserv',
+            'desc' => 'amd64                                                                                                                              boot sequence organizer using LSB init.d script dependency information',
+            'update' => 'insserv'
+          },
+          {
+            'update' => 'iproute2',
+            'desc' => 'amd64                                                                                                                              networking and traffic control tools',
+            'name' => 'iproute2',
+            'version' => '3.12.0-2ubuntu1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'name' => 'iputils-ping',
+            'update' => 'iputils-ping',
+            'desc' => 'amd64                                                                                                                              Tools to test the reachability of network hosts',
+            'system' => 'apt',
+            'epoch' => '3',
+            'version' => '20121221-4ubuntu1.1'
+          },
+          {
+            'name' => 'isc-dhcp-client',
+            'desc' => 'amd64                                                                                                                              ISC DHCP client',
+            'update' => 'isc-dhcp-client',
+            'system' => 'apt',
+            'version' => '4.2.4-7ubuntu12.8',
+            'epoch' => undef
+          },
+          {
+            'name' => 'isc-dhcp-common',
+            'desc' => 'amd64                                                                                                                              common files used by all the isc-dhcp* packages',
+            'update' => 'isc-dhcp-common',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '4.2.4-7ubuntu12.8'
+          },
+          {
+            'name' => 'kbd',
+            'desc' => 'amd64                                                                                                                              Linux console font and keytable utilities',
+            'update' => 'kbd',
+            'system' => 'apt',
+            'version' => '1.15.5-1ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'name' => 'keyboard-configuration',
+            'update' => 'keyboard-configuration',
+            'desc' => 'all                                                                                                                                system-wide keyboard preferences',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.70ubuntu8'
+          },
+          {
+            'update' => 'klibc-utils',
+            'desc' => 'amd64                                                                                                                              small utilities built with klibc for early boot',
+            'name' => 'klibc-utils',
+            'version' => '2.0.3-0ubuntu1.14.04.2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'name' => 'kmod',
+            'desc' => 'amd64                                                                                                                              tools for managing Linux kernel modules',
+            'update' => 'kmod',
+            'system' => 'apt',
+            'version' => '15-0ubuntu6',
+            'epoch' => undef
+          },
+          {
+            'update' => 'less',
+            'desc' => 'amd64                                                                                                                              pager program similar to more',
+            'name' => 'less',
+            'version' => '458-2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.2.52-1',
+            'name' => 'libacl1',
+            'update' => 'libacl1',
+            'desc' => 'amd64                                                                                                                              Access control list shared library'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.0.1ubuntu2.17',
+            'epoch' => undef,
+            'name' => 'libapt-inst1.5',
+            'desc' => 'amd64                                                                                                                              deb package format runtime library',
+            'update' => 'libapt-inst1.5'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.1.29build1',
+            'name' => 'libapt-pkg-perl',
+            'desc' => 'amd64                                                                                                                              Perl interface to libapt-pkg',
+            'update' => 'libapt-pkg-perl'
+          },
+          {
+            'version' => '1.0.1ubuntu2.17',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libapt-pkg4.12',
+            'desc' => 'amd64                                                                                                                              package management runtime library',
+            'name' => 'libapt-pkg4.12'
+          },
+          {
+            'desc' => 'all                                                                                                                                generic archive extracting module',
+            'update' => 'libarchive-extract-perl',
+            'name' => 'libarchive-extract-perl',
+            'epoch' => undef,
+            'version' => '0.70-1',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef,
+            'name' => 'libasn1-8-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - ASN.1 library',
+            'update' => 'libasn1-8-heimdal'
+          },
+          {
+            'version' => '2.4.47-1ubuntu1',
+            'epoch' => '1',
+            'system' => 'apt',
+            'update' => 'libattr1',
+            'desc' => 'amd64                                                                                                                              Extended attribute shared library',
+            'name' => 'libattr1'
+          },
+          {
+            'name' => 'libaudit-common',
+            'update' => 'libaudit-common',
+            'desc' => 'all                                                                                                                                Dynamic library for security auditing - common files',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '2.3.2-2ubuntu1'
+          },
+          {
+            'version' => '2.3.2-2ubuntu1',
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Dynamic library for security auditing',
+            'update' => 'libaudit1',
+            'name' => 'libaudit1'
+          },
+          {
+            'name' => 'libauthen-pam-perl',
+            'desc' => 'amd64                                                                                                                              Perl interface to PAM library',
+            'update' => 'libauthen-pam-perl',
+            'system' => 'apt',
+            'version' => '0.16-2build3',
+            'epoch' => undef
+          },
+          {
+            'update' => 'libbind9-90',
+            'desc' => 'amd64                                                                                                                              BIND9 Shared Library used by BIND',
+            'name' => 'libbind9-90',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'name' => 'libblkid1',
+            'desc' => 'amd64                                                                                                                              block device id library',
+            'update' => 'libblkid1'
+          },
+          {
+            'name' => 'libbsd0',
+            'update' => 'libbsd0',
+            'desc' => 'amd64                                                                                                                              utility functions from BSD systems - shared library',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.6.0-2ubuntu1'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.0.6-5',
+            'name' => 'libbz2-1.0',
+            'update' => 'libbz2-1.0',
+            'desc' => 'amd64                                                                                                                              high-quality block-sorting file compressor library - runtime'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.19-0ubuntu6.9',
+            'name' => 'libc-bin',
+            'desc' => 'amd64                                                                                                                              Embedded GNU C Library: Binaries',
+            'update' => 'libc-bin'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.19-0ubuntu6.9',
+            'name' => 'libc6',
+            'desc' => 'amd64                                                                                                                              Embedded GNU C Library: Shared libraries',
+            'update' => 'libc6'
+          },
+          {
+            'epoch' => '1',
+            'version' => '2.24-0ubuntu2',
+            'system' => 'apt',
+            'update' => 'libcap2',
+            'desc' => 'amd64                                                                                                                              support for getting/setting POSIX.1e capabilities',
+            'name' => 'libcap2'
+          },
+          {
+            'update' => 'libcap2-bin',
+            'desc' => 'amd64                                                                                                                              basic utility programs for using capabilities',
+            'name' => 'libcap2-bin',
+            'epoch' => '1',
+            'version' => '2.24-0ubuntu2',
+            'system' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'version' => '0.24-0ubuntu7.5',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Central cgroup manager daemon (client library)',
+            'update' => 'libcgmanager0',
+            'name' => 'libcgmanager0'
+          },
+          {
+            'version' => '1.42.9-3ubuntu1.3',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libcomerr2',
+            'desc' => 'amd64                                                                                                                              common error description library',
+            'name' => 'libcomerr2'
+          },
+          {
+            'name' => 'libcurl3-gnutls',
+            'desc' => 'amd64                                                                                                                              easy-to-use client-side URL transfer library (GnuTLS flavour)',
+            'update' => 'libcurl3-gnutls',
+            'system' => 'apt',
+            'version' => '7.35.0-1ubuntu2.10',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.3.28-3ubuntu3',
+            'name' => 'libdb5.3',
+            'desc' => 'amd64                                                                                                                              Berkeley v5.3 Database Libraries [runtime]',
+            'update' => 'libdb5.3'
+          },
+          {
+            'name' => 'libdbus-1-3',
+            'desc' => 'amd64                                                                                                                              simple interprocess messaging system (library)',
+            'update' => 'libdbus-1-3',
+            'system' => 'apt',
+            'version' => '1.6.18-0ubuntu4.5',
+            'epoch' => undef
+          },
+          {
+            'epoch' => undef,
+            'version' => '0.187ubuntu1',
+            'system' => 'apt',
+            'update' => 'libdebconfclient0',
+            'desc' => 'amd64                                                                                                                              Debian Configuration Management System (C-implementation library)',
+            'name' => 'libdebconfclient0'
+          },
+          {
+            'name' => 'libdevmapper1.02.1',
+            'update' => 'libdevmapper1.02.1',
+            'desc' => 'amd64                                                                                                                              Linux Kernel Device Mapper userspace library',
+            'system' => 'apt',
+            'epoch' => '2',
+            'version' => '1.02.77-6ubuntu2'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              DNS Shared Library used by BIND',
+            'update' => 'libdns100',
+            'name' => 'libdns100',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.4.67-1ubuntu0.14.04.1',
+            'epoch' => undef,
+            'name' => 'libdrm2',
+            'desc' => 'amd64                                                                                                                              Userspace interface to kernel DRM services -- runtime',
+            'update' => 'libdrm2'
+          },
+          {
+            'update' => 'libestr0',
+            'desc' => 'amd64                                                                                                                              Helper functions for handling strings (lib)',
+            'name' => 'libestr0',
+            'version' => '0.1.9-0ubuntu2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.1.0-4ubuntu1.3',
+            'name' => 'libexpat1',
+            'desc' => 'amd64                                                                                                                              XML parsing C library - runtime library',
+            'update' => 'libexpat1'
+          },
+          {
+            'system' => 'apt',
+            'version' => '3.1~rc1+r3.0.13-12ubuntu0.1',
+            'epoch' => undef,
+            'name' => 'libffi6',
+            'update' => 'libffi6',
+            'desc' => 'amd64                                                                                                                              Foreign Function Interface library runtime'
+          },
+          {
+            'system' => 'apt',
+            'version' => '0.19.6-1',
+            'epoch' => undef,
+            'name' => 'libfribidi0',
+            'update' => 'libfribidi0',
+            'desc' => 'amd64                                                                                                                              Free Implementation of the Unicode BiDi algorithm'
+          },
+          {
+            'name' => 'libgcc1',
+            'desc' => 'amd64                                                                                                                              GCC support library',
+            'update' => 'libgcc1',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '4.9.3-0ubuntu4'
+          },
+          {
+            'name' => 'libgcrypt11',
+            'desc' => 'amd64                                                                                                                              LGPL Crypto library - runtime library',
+            'update' => 'libgcrypt11',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.5.3-2ubuntu4.4'
+          },
+          {
+            'name' => 'libgdbm3',
+            'desc' => 'amd64                                                                                                                              GNU dbm database routines (runtime version)',
+            'update' => 'libgdbm3',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.8.3-12build1'
+          },
+          {
+            'version' => '1.6.0-1',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libgeoip1',
+            'desc' => 'amd64                                                                                                                              non-DNS IP-to-country resolver library',
+            'name' => 'libgeoip1'
+          },
+          {
+            'name' => 'libgnutls-openssl27',
+            'desc' => 'amd64                                                                                                                              GNU TLS library - OpenSSL wrapper',
+            'update' => 'libgnutls-openssl27',
+            'system' => 'apt',
+            'version' => '2.12.23-12ubuntu2.5',
+            'epoch' => undef
+          },
+          {
+            'update' => 'libgnutls26',
+            'desc' => 'amd64                                                                                                                              GNU TLS library - runtime library',
+            'name' => 'libgnutls26',
+            'version' => '2.12.23-12ubuntu2.5',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libgpg-error0',
+            'update' => 'libgpg-error0',
+            'desc' => 'amd64                                                                                                                              library for common error values and messages in GnuPG components',
+            'system' => 'apt',
+            'version' => '1.12-0.2ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.2',
+            'epoch' => undef,
+            'name' => 'libgssapi-krb5-2',
+            'update' => 'libgssapi-krb5-2',
+            'desc' => 'amd64                                                                                                                              MIT Kerberos runtime libraries - krb5 GSS-API Mechanism'
+          },
+          {
+            'name' => 'libgssapi3-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - GSSAPI support library',
+            'update' => 'libgssapi3-heimdal',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'system' => 'apt',
+            'update' => 'libhcrypto4-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - crypto library',
+            'name' => 'libhcrypto4-heimdal'
+          },
+          {
+            'name' => 'libheimbase1-heimdal',
+            'update' => 'libheimbase1-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - Base library',
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'name' => 'libheimntlm0-heimdal',
+            'update' => 'libheimntlm0-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - NTLM support library'
+          },
+          {
+            'name' => 'libhx509-5-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - X509 support library',
+            'update' => 'libhx509-5-heimdal',
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef
+          },
+          {
+            'version' => '1.28-1ubuntu2.1',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libidn11',
+            'desc' => 'amd64                                                                                                                              GNU Libidn library, implementation of IETF IDN specifications',
+            'name' => 'libidn11'
+          },
+          {
+            'update' => 'libio-pty-perl',
+            'desc' => 'amd64                                                                                                                              Perl module for pseudo tty IO',
+            'name' => 'libio-pty-perl',
+            'epoch' => '1',
+            'version' => '1.08-1build4',
+            'system' => 'apt'
+          },
+          {
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'system' => 'apt',
+            'update' => 'libisc95',
+            'desc' => 'amd64                                                                                                                              ISC Shared Library used by BIND',
+            'name' => 'libisc95'
+          },
+          {
+            'name' => 'libisccc90',
+            'update' => 'libisccc90',
+            'desc' => 'amd64                                                                                                                              Command Channel Library used by BIND',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.11'
+          },
+          {
+            'epoch' => '1',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'system' => 'apt',
+            'update' => 'libisccfg90',
+            'desc' => 'amd64                                                                                                                              Config File Handling Library used by BIND',
+            'name' => 'libisccfg90'
+          },
+          {
+            'name' => 'libjson-c2',
+            'desc' => 'amd64                                                                                                                              JSON manipulation library - shared library',
+            'update' => 'libjson-c2',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.11-3ubuntu1.2'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              JSON manipulation library (transitional package)',
+            'update' => 'libjson0',
+            'name' => 'libjson0',
+            'epoch' => undef,
+            'version' => '0.11-3ubuntu1.2',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libk5crypto3',
+            'update' => 'libk5crypto3',
+            'desc' => 'amd64                                                                                                                              MIT Kerberos runtime libraries - Crypto Library',
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.2',
+            'epoch' => undef
+          },
+          {
+            'name' => 'libkeyutils1',
+            'desc' => 'amd64                                                                                                                              Linux Key Management Utilities (library)',
+            'update' => 'libkeyutils1',
+            'system' => 'apt',
+            'version' => '1.5.6-1',
+            'epoch' => undef
+          },
+          {
+            'desc' => 'amd64                                                                                                                              minimal libc subset for use with initramfs',
+            'update' => 'libklibc',
+            'name' => 'libklibc',
+            'version' => '2.0.3-0ubuntu1.14.04.2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              libkmod shared library',
+            'update' => 'libkmod2',
+            'name' => 'libkmod2',
+            'version' => '15-0ubuntu6',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef,
+            'name' => 'libkrb5-26-heimdal',
+            'update' => 'libkrb5-26-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - libraries'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.12+dfsg-2ubuntu5.2',
+            'epoch' => undef,
+            'name' => 'libkrb5-3',
+            'update' => 'libkrb5-3',
+            'desc' => 'amd64                                                                                                                              MIT Kerberos runtime libraries'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              MIT Kerberos runtime libraries - Support library',
+            'update' => 'libkrb5support0',
+            'name' => 'libkrb5support0',
+            'version' => '1.12+dfsg-2ubuntu5.2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.4.31-1+nmu2ubuntu8.3',
+            'epoch' => undef,
+            'name' => 'libldap-2.4-2',
+            'desc' => 'amd64                                                                                                                              OpenLDAP libraries',
+            'update' => 'libldap-2.4-2'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.05-7build3',
+            'name' => 'liblocale-gettext-perl',
+            'desc' => 'amd64                                                                                                                              module using libc functions for internationalization in Perl',
+            'update' => 'liblocale-gettext-perl'
+          },
+          {
+            'version' => '1.09-6ubuntu1',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'liblockfile-bin',
+            'desc' => 'amd64                                                                                                                              support binaries for and cli utilities based on liblockfile',
+            'name' => 'liblockfile-bin'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.09-6ubuntu1',
+            'epoch' => undef,
+            'name' => 'liblockfile1',
+            'update' => 'liblockfile1',
+            'desc' => 'amd64                                                                                                                              NFS-safe locking library'
+          },
+          {
+            'desc' => 'all                                                                                                                                simplified interface to Log::Message',
+            'update' => 'liblog-message-simple-perl',
+            'name' => 'liblog-message-simple-perl',
+            'epoch' => undef,
+            'version' => '0.10-1',
+            'system' => 'apt'
+          },
+          {
+            'update' => 'liblwres90',
+            'desc' => 'amd64                                                                                                                              Lightweight Resolver Library used by BIND',
+            'name' => 'liblwres90',
+            'version' => '9.9.5.dfsg-3ubuntu0.11',
+            'epoch' => '1',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.1.1alpha+20120614-2ubuntu2',
+            'name' => 'liblzma5',
+            'update' => 'liblzma5',
+            'desc' => 'amd64                                                                                                                              XZ-format compression library'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '5.14-2ubuntu3.3',
+            'name' => 'libmagic1',
+            'desc' => 'amd64                                                                                                                              File type determination library using "magic" numbers',
+            'update' => 'libmagic1'
+          },
+          {
+            'epoch' => undef,
+            'version' => '5.1-1',
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                module for giving  modules the ability to have plugins',
+            'update' => 'libmodule-pluggable-perl',
+            'name' => 'libmodule-pluggable-perl'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'name' => 'libmount1',
+            'update' => 'libmount1',
+            'desc' => 'amd64                                                                                                                              block device id library'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2.4.0-6',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              library for decimal floating point arithmetic (runtime library)',
+            'update' => 'libmpdec2',
+            'name' => 'libmpdec2'
+          },
+          {
+            'name' => 'libncurses5',
+            'desc' => 'amd64                                                                                                                              shared libraries for terminal handling',
+            'update' => 'libncurses5',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.9+20140118-1ubuntu1'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.9+20140118-1ubuntu1',
+            'name' => 'libncursesw5',
+            'update' => 'libncursesw5',
+            'desc' => 'amd64                                                                                                                              shared libraries for terminal handling (wide character support)'
+          },
+          {
+            'update' => 'libnet-ssleay-perl',
+            'desc' => 'amd64                                                                                                                              Perl module for Secure Sockets Layer (SSL)',
+            'name' => 'libnet-ssleay-perl',
+            'version' => '1.58-1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Not Erik\'s Windowing Toolkit - text mode windowing with slang',
+            'update' => 'libnewt0.52',
+            'name' => 'libnewt0.52',
+            'epoch' => undef,
+            'version' => '0.52.15-2ubuntu5',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libnih-dbus1',
+            'desc' => 'amd64                                                                                                                              NIH D-Bus Bindings Library',
+            'update' => 'libnih-dbus1',
+            'system' => 'apt',
+            'version' => '1.0.3-4ubuntu25',
+            'epoch' => undef
+          },
+          {
+            'name' => 'libnih1',
+            'update' => 'libnih1',
+            'desc' => 'amd64                                                                                                                              NIH Utility Library',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.0.3-4ubuntu25'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.20.2-2ubuntu2',
+            'name' => 'libp11-kit0',
+            'desc' => 'amd64                                                                                                                              Library for loading and coordinating access to PKCS#11 modules - runtime',
+            'update' => 'libp11-kit0'
+          },
+          {
+            'version' => '2.24-0ubuntu2',
+            'epoch' => '1',
+            'system' => 'apt',
+            'update' => 'libpam-cap',
+            'desc' => 'amd64                                                                                                                              PAM module for implementing capabilities',
+            'name' => 'libpam-cap'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.1.8-1ubuntu2.2',
+            'system' => 'apt',
+            'update' => 'libpam-modules',
+            'desc' => 'amd64                                                                                                                              Pluggable Authentication Modules for PAM',
+            'name' => 'libpam-modules'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.1.8-1ubuntu2.2',
+            'epoch' => undef,
+            'name' => 'libpam-modules-bin',
+            'desc' => 'amd64                                                                                                                              Pluggable Authentication Modules for PAM - helper binaries',
+            'update' => 'libpam-modules-bin'
+          },
+          {
+            'version' => '1.1.8-1ubuntu2.2',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                Runtime support for the PAM library',
+            'update' => 'libpam-runtime',
+            'name' => 'libpam-runtime'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.1.8-1ubuntu2.2',
+            'epoch' => undef,
+            'name' => 'libpam0g',
+            'update' => 'libpam0g',
+            'desc' => 'amd64                                                                                                                              Pluggable Authentication Modules library'
+          },
+          {
+            'name' => 'libpcre3',
+            'update' => 'libpcre3',
+            'desc' => 'amd64                                                                                                                              Perl 5 Compatible Regular Expression Library - runtime files',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '8.31-2ubuntu2.3'
+          },
+          {
+            'system' => 'apt',
+            'version' => '0.8.8-0ubuntu17.1',
+            'epoch' => undef,
+            'name' => 'libplymouth2',
+            'desc' => 'amd64                                                                                                                              graphical boot animation and logger - shared libraries',
+            'update' => 'libplymouth2'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.2.50-1ubuntu2.14.04.2',
+            'name' => 'libpng12-0',
+            'update' => 'libpng12-0',
+            'desc' => 'amd64                                                                                                                              PNG library - runtime'
+          },
+          {
+            'name' => 'libpod-latex-perl',
+            'desc' => 'all                                                                                                                                module to convert Pod data to formatted LaTeX',
+            'update' => 'libpod-latex-perl',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.61-1'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              lib for parsing cmdline parameters',
+            'update' => 'libpopt0',
+            'name' => 'libpopt0',
+            'epoch' => undef,
+            'version' => '1.16-8ubuntu1',
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '3.3.9-1ubuntu2.2',
+            'name' => 'libprocps3',
+            'desc' => 'amd64                                                                                                                              library for accessing process information from /proc',
+            'update' => 'libprocps3'
+          },
+          {
+            'version' => '2.7.5-5ubuntu3',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libpython-stdlib',
+            'desc' => 'amd64                                                                                                                              interactive high-level object-oriented language (default python version)',
+            'name' => 'libpython-stdlib'
+          },
+          {
+            'update' => 'libpython2.7-minimal',
+            'desc' => 'amd64                                                                                                                              Minimal subset of the Python language (version 2.7)',
+            'name' => 'libpython2.7-minimal',
+            'version' => '2.7.6-8ubuntu0.3',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.7.6-8ubuntu0.3',
+            'name' => 'libpython2.7-stdlib',
+            'desc' => 'amd64                                                                                                                              Interactive high-level object-oriented language (standard library, version 2.7)',
+            'update' => 'libpython2.7-stdlib'
+          },
+          {
+            'name' => 'libpython3-stdlib',
+            'desc' => 'amd64                                                                                                                              interactive high-level object-oriented language (default python3 version)',
+            'update' => 'libpython3-stdlib',
+            'system' => 'apt',
+            'version' => '3.4.0-0ubuntu2',
+            'epoch' => undef
+          },
+          {
+            'epoch' => undef,
+            'version' => '3.4.3-1ubuntu1~14.04.5',
+            'system' => 'apt',
+            'update' => 'libpython3.4-minimal',
+            'desc' => 'amd64                                                                                                                              Minimal subset of the Python language (version 3.4)',
+            'name' => 'libpython3.4-minimal'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Interactive high-level object-oriented language (standard library, version 3.4)',
+            'update' => 'libpython3.4-stdlib',
+            'name' => 'libpython3.4-stdlib',
+            'version' => '3.4.3-1ubuntu1~14.04.5',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '6.3-4ubuntu2',
+            'epoch' => undef,
+            'name' => 'libreadline6',
+            'update' => 'libreadline6',
+            'desc' => 'amd64                                                                                                                              GNU readline and history libraries, run-time libraries'
+          },
+          {
+            'name' => 'libroken18-heimdal',
+            'update' => 'libroken18-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - roken support library',
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef
+          },
+          {
+            'desc' => 'amd64                                                                                                                              toolkit for RTMP streams (shared library)',
+            'update' => 'librtmp0',
+            'name' => 'librtmp0',
+            'epoch' => undef,
+            'version' => '2.4+20121230.gitdf6c518-1',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libsasl2-2',
+            'desc' => 'amd64                                                                                                                              Cyrus SASL - authentication abstraction library',
+            'update' => 'libsasl2-2',
+            'system' => 'apt',
+            'version' => '2.1.25.dfsg1-17build1',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.1.25.dfsg1-17build1',
+            'epoch' => undef,
+            'name' => 'libsasl2-modules-db',
+            'desc' => 'amd64                                                                                                                              Cyrus SASL - pluggable authentication modules (DB)',
+            'update' => 'libsasl2-modules-db'
+          },
+          {
+            'update' => 'libselinux1',
+            'desc' => 'amd64                                                                                                                              SELinux runtime shared libraries',
+            'name' => 'libselinux1',
+            'version' => '2.2.2-1ubuntu0.1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libsemanage-common',
+            'desc' => 'all                                                                                                                                Common files for SELinux policy management libraries',
+            'update' => 'libsemanage-common',
+            'system' => 'apt',
+            'version' => '2.2-1',
+            'epoch' => undef
+          },
+          {
+            'update' => 'libsemanage1',
+            'desc' => 'amd64                                                                                                                              SELinux policy management library',
+            'name' => 'libsemanage1',
+            'epoch' => undef,
+            'version' => '2.2-1',
+            'system' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2.2-1ubuntu0.1',
+            'system' => 'apt',
+            'update' => 'libsepol1',
+            'desc' => 'amd64                                                                                                                              SELinux library for manipulating binary security policies',
+            'name' => 'libsepol1'
+          },
+          {
+            'update' => 'libslang2',
+            'desc' => 'amd64                                                                                                                              S-Lang programming library - runtime version',
+            'name' => 'libslang2',
+            'version' => '2.2.4-15ubuntu1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '3.8.2-1ubuntu2.1',
+            'epoch' => undef,
+            'name' => 'libsqlite3-0',
+            'desc' => 'amd64                                                                                                                              SQLite 3 shared library',
+            'update' => 'libsqlite3-0'
+          },
+          {
+            'update' => 'libss2',
+            'desc' => 'amd64                                                                                                                              command-line interface parsing library',
+            'name' => 'libss2',
+            'epoch' => undef,
+            'version' => '1.42.9-3ubuntu1.3',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libssl1.0.0',
+            'update' => 'libssl1.0.0',
+            'desc' => 'amd64                                                                                                                              Secure Sockets Layer toolkit - shared libraries',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.0.1f-1ubuntu2.21'
+          },
+          {
+            'version' => '4.8.4-2ubuntu1~14.04.3',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'libstdc++6',
+            'desc' => 'amd64                                                                                                                              GNU Standard C++ Library v3',
+            'name' => 'libstdc++6'
+          },
+          {
+            'desc' => 'amd64                                                                                                                              Manage ASN.1 structures (runtime)',
+            'update' => 'libtasn1-6',
+            'name' => 'libtasn1-6',
+            'version' => '3.4-3ubuntu0.4',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.42-1',
+            'name' => 'libterm-ui-perl',
+            'update' => 'libterm-ui-perl',
+            'desc' => 'all                                                                                                                                Term::ReadLine UI made easy'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '0.04-7build3',
+            'name' => 'libtext-charwidth-perl',
+            'update' => 'libtext-charwidth-perl',
+            'desc' => 'amd64                                                                                                                              get display widths of characters on the terminal'
+          },
+          {
+            'name' => 'libtext-iconv-perl',
+            'update' => 'libtext-iconv-perl',
+            'desc' => 'amd64                                                                                                                              converts between character sets in Perl',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.7-5build2'
+          },
+          {
+            'epoch' => undef,
+            'version' => '3.4-1build1',
+            'system' => 'apt',
+            'update' => 'libtext-soundex-perl',
+            'desc' => 'amd64                                                                                                                              implementation of the soundex algorithm',
+            'name' => 'libtext-soundex-perl'
+          },
+          {
+            'name' => 'libtext-wrapi18n-perl',
+            'update' => 'libtext-wrapi18n-perl',
+            'desc' => 'all                                                                                                                                internationalized substitute of Text::Wrap',
+            'system' => 'apt',
+            'version' => '0.06-7',
+            'epoch' => undef
+          },
+          {
+            'name' => 'libtinfo5',
+            'desc' => 'amd64                                                                                                                              shared low-level terminfo library for terminal handling',
+            'update' => 'libtinfo5',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.9+20140118-1ubuntu1'
+          },
+          {
+            'name' => 'libudev1',
+            'desc' => 'amd64                                                                                                                              libudev shared library',
+            'update' => 'libudev1',
+            'system' => 'apt',
+            'version' => '204-5ubuntu20.20',
+            'epoch' => undef
+          },
+          {
+            'update' => 'libusb-0.1-4',
+            'desc' => 'amd64                                                                                                                              userspace USB programming library',
+            'name' => 'libusb-0.1-4',
+            'version' => '0.1.12-23.3ubuntu1',
+            'epoch' => '2',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'libustr-1.0-1',
+            'desc' => 'amd64                                                                                                                              Micro string library: shared library',
+            'update' => 'libustr-1.0-1',
+            'system' => 'apt',
+            'version' => '1.0.4-3ubuntu2',
+            'epoch' => undef
+          },
+          {
+            'name' => 'libuuid1',
+            'desc' => 'amd64                                                                                                                              Universally Unique ID library',
+            'update' => 'libuuid1',
+            'system' => 'apt',
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.6~git20131207+dfsg-1ubuntu1.1',
+            'epoch' => undef,
+            'name' => 'libwind0-heimdal',
+            'desc' => 'amd64                                                                                                                              Heimdal Kerberos - stringprep implementation',
+            'update' => 'libwind0-heimdal'
+          },
+          {
+            'system' => 'apt',
+            'version' => '2.9.1+dfsg1-3ubuntu4.8',
+            'epoch' => undef,
+            'name' => 'libxml2',
+            'update' => 'libxml2',
+            'desc' => 'amd64                                                                                                                              GNOME XML library'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.13+git20120306-12.1',
+            'name' => 'locales',
+            'update' => 'locales',
+            'desc' => 'all                                                                                                                                common files for locale support'
+          },
+          {
+            'system' => 'apt',
+            'version' => '0.1.17',
+            'epoch' => undef,
+            'name' => 'lockfile-progs',
+            'desc' => 'amd64                                                                                                                              Programs for locking and unlocking files and mailboxes',
+            'update' => 'lockfile-progs'
+          },
+          {
+            'name' => 'login',
+            'desc' => 'amd64                                                                                                                              system login tools',
+            'update' => 'login',
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '4.1.5.1-1ubuntu9.2'
+          },
+          {
+            'name' => 'logrotate',
+            'desc' => 'amd64                                                                                                                              Log rotation utility',
+            'update' => 'logrotate',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '3.8.7-1ubuntu1'
+          },
+          {
+            'system' => 'apt',
+            'version' => '4.1+Debian11ubuntu6.2',
+            'epoch' => undef,
+            'name' => 'lsb-base',
+            'update' => 'lsb-base',
+            'desc' => 'all                                                                                                                                Linux Standard Base 4.1 init script functionality'
+          },
+          {
+            'name' => 'lsb-release',
+            'update' => 'lsb-release',
+            'desc' => 'all                                                                                                                                Linux Standard Base version reporting utility',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '4.1+Debian11ubuntu6.2'
+          },
+          {
+            'name' => 'makedev',
+            'desc' => 'all                                                                                                                                creates device files in /dev',
+            'update' => 'makedev',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.3.1-93ubuntu1'
+          },
+          {
+            'name' => 'mawk',
+            'update' => 'mawk',
+            'desc' => 'amd64                                                                                                                              a pattern scanning and text processing language',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.3.3-17ubuntu2'
+          },
+          {
+            'system' => 'apt',
+            'version' => '3.54ubuntu1.1',
+            'epoch' => undef,
+            'name' => 'mime-support',
+            'update' => 'mime-support',
+            'desc' => 'all                                                                                                                                MIME files \'mime.types\' & \'mailcap\', and support programs'
+          },
+          {
+            'epoch' => undef,
+            'version' => '15-0ubuntu6',
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                transitional dummy package (module-init-tools to kmod)',
+            'update' => 'module-init-tools',
+            'name' => 'module-init-tools'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Tools for mounting and manipulating filesystems',
+            'update' => 'mount',
+            'name' => 'mount'
+          },
+          {
+            'name' => 'mountall',
+            'update' => 'mountall',
+            'desc' => 'amd64                                                                                                                              filesystem mounting tool',
+            'system' => 'apt',
+            'version' => '2.53',
+            'epoch' => undef
+          },
+          {
+            'version' => '2.19-0ubuntu6.9',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Transitional package to ensure multiarch compatibility',
+            'update' => 'multiarch-support',
+            'name' => 'multiarch-support'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.9+20140118-1ubuntu1',
+            'name' => 'ncurses-base',
+            'desc' => 'all                                                                                                                                basic terminal type definitions',
+            'update' => 'ncurses-base'
+          },
+          {
+            'name' => 'ncurses-bin',
+            'update' => 'ncurses-bin',
+            'desc' => 'amd64                                                                                                                              terminal-related programs and man pages',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.9+20140118-1ubuntu1'
+          },
+          {
+            'name' => 'net-tools',
+            'update' => 'net-tools',
+            'desc' => 'amd64                                                                                                                              The NET-3 networking toolkit',
+            'system' => 'apt',
+            'version' => '1.60-25ubuntu2.1',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'version' => '5.2',
+            'epoch' => undef,
+            'name' => 'netbase',
+            'desc' => 'all                                                                                                                                Basic TCP/IP networking system',
+            'update' => 'netbase'
+          },
+          {
+            'name' => 'netcat-openbsd',
+            'desc' => 'amd64                                                                                                                              TCP/IP swiss army knife',
+            'update' => 'netcat-openbsd',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.105-7ubuntu1'
+          },
+          {
+            'system' => 'apt',
+            'version' => '4.2.6.p5+dfsg-3ubuntu2.14.04.10',
+            'epoch' => '1',
+            'name' => 'ntpdate',
+            'update' => 'ntpdate',
+            'desc' => 'amd64                                                                                                                              client for setting system time from NTP servers'
+          },
+          {
+            'version' => '1.0.1f-1ubuntu2.21',
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              Secure Sockets Layer toolkit - cryptographic utility',
+            'update' => 'openssl',
+            'name' => 'openssl'
+          },
+          {
+            'system' => 'apt',
+            'epoch' => '1',
+            'version' => '4.1.5.1-1ubuntu9.2',
+            'name' => 'passwd',
+            'update' => 'passwd',
+            'desc' => 'amd64                                                                                                                              change and administer password and group data'
+          },
+          {
+            'update' => 'perl',
+            'desc' => 'amd64                                                                                                                              Larry Wall\'s Practical Extraction and Report Language',
+            'name' => 'perl',
+            'epoch' => undef,
+            'version' => '5.18.2-2ubuntu1.1',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'perl-base',
+            'desc' => 'amd64                                                                                                                              minimal Perl system',
+            'update' => 'perl-base',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '5.18.2-2ubuntu1.1'
+          },
+          {
+            'epoch' => undef,
+            'version' => '5.18.2-2ubuntu1.1',
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                Core Perl modules',
+            'update' => 'perl-modules',
+            'name' => 'perl-modules'
+          },
+          {
+            'update' => 'plymouth',
+            'desc' => 'amd64                                                                                                                              graphical boot animation and logger - main package',
+            'name' => 'plymouth',
+            'version' => '0.8.8-0ubuntu17.1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'system' => 'apt',
+            'version' => '3.3.9-1ubuntu2.2',
+            'epoch' => '1',
+            'name' => 'procps',
+            'update' => 'procps',
+            'desc' => 'amd64                                                                                                                              /proc file system utilities'
+          },
+          {
+            'name' => 'python',
+            'desc' => 'amd64                                                                                                                              interactive high-level object-oriented language (default version)',
+            'update' => 'python',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.7.5-5ubuntu3'
+          },
+          {
+            'name' => 'python-minimal',
+            'update' => 'python-minimal',
+            'desc' => 'amd64                                                                                                                              minimal subset of the Python language (default version)',
+            'system' => 'apt',
+            'version' => '2.7.5-5ubuntu3',
+            'epoch' => undef
+          },
+          {
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.7.6-8ubuntu0.3',
+            'name' => 'python2.7',
+            'desc' => 'amd64                                                                                                                              Interactive high-level object-oriented language (version 2.7)',
+            'update' => 'python2.7'
+          },
+          {
+            'name' => 'python2.7-minimal',
+            'desc' => 'amd64                                                                                                                              Minimal subset of the Python language (version 2.7)',
+            'update' => 'python2.7-minimal',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '2.7.6-8ubuntu0.3'
+          },
+          {
+            'system' => 'apt',
+            'version' => '3.4.0-0ubuntu2',
+            'epoch' => undef,
+            'name' => 'python3',
+            'desc' => 'amd64                                                                                                                              interactive high-level object-oriented language (default python3 version)',
+            'update' => 'python3'
+          },
+          {
+            'epoch' => undef,
+            'version' => '3.4.0-0ubuntu2',
+            'system' => 'apt',
+            'update' => 'python3-minimal',
+            'desc' => 'amd64                                                                                                                              minimal subset of the Python language (default python3 version)',
+            'name' => 'python3-minimal'
+          },
+          {
+            'epoch' => undef,
+            'version' => '3.4.3-1ubuntu1~14.04.5',
+            'system' => 'apt',
+            'update' => 'python3.4',
+            'desc' => 'amd64                                                                                                                              Interactive high-level object-oriented language (version 3.4)',
+            'name' => 'python3.4'
+          },
+          {
+            'name' => 'python3.4-minimal',
+            'desc' => 'amd64                                                                                                                              Minimal subset of the Python language (version 3.4)',
+            'update' => 'python3.4-minimal',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '3.4.3-1ubuntu1~14.04.5'
+          },
+          {
+            'name' => 'readline-common',
+            'desc' => 'all                                                                                                                                GNU readline and history libraries, common files',
+            'update' => 'readline-common',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '6.3-4ubuntu2'
+          },
+          {
+            'update' => 'resolvconf',
+            'desc' => 'all                                                                                                                                name server information handler',
+            'name' => 'resolvconf',
+            'version' => '1.69ubuntu1.1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'version' => '7.4.4-1ubuntu2.6',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              reliable system and kernel logging daemon',
+            'update' => 'rsyslog',
+            'name' => 'rsyslog'
+          },
+          {
+            'update' => 'sed',
+            'desc' => 'amd64                                                                                                                              The GNU sed stream editor',
+            'name' => 'sed',
+            'epoch' => undef,
+            'version' => '4.2.2-4ubuntu1',
+            'system' => 'apt'
+          },
+          {
+            'name' => 'sensible-utils',
+            'update' => 'sensible-utils',
+            'desc' => 'all                                                                                                                                Utilities for sensible alternative selection',
+            'system' => 'apt',
+            'version' => '0.0.9',
+            'epoch' => undef
+          },
+          {
+            'name' => 'sudo',
+            'desc' => 'amd64                                                                                                                              Provide limited super user privileges to specific users',
+            'update' => 'sudo',
+            'system' => 'apt',
+            'version' => '1.8.9p5-1ubuntu1.3',
+            'epoch' => undef
+          },
+          {
+            'desc' => 'all                                                                                                                                System-V-like runlevel change mechanism',
+            'update' => 'sysv-rc',
+            'name' => 'sysv-rc',
+            'version' => '2.88dsf-41ubuntu6.3',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2.88dsf-41ubuntu6.3',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              System-V-like utilities',
+            'update' => 'sysvinit-utils',
+            'name' => 'sysvinit-utils'
+          },
+          {
+            'system' => 'apt',
+            'version' => '1.27.1-1ubuntu0.1',
+            'epoch' => undef,
+            'name' => 'tar',
+            'update' => 'tar',
+            'desc' => 'amd64                                                                                                                              GNU version of the tar archiving utility'
+          },
+          {
+            'epoch' => undef,
+            'version' => '2016j-0ubuntu0.14.04',
+            'system' => 'apt',
+            'desc' => 'all                                                                                                                                time zone and daylight-saving time data',
+            'update' => 'tzdata',
+            'name' => 'tzdata'
+          },
+          {
+            'version' => '2012.05.19',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'ubuntu-keyring',
+            'desc' => 'all                                                                                                                                GnuPG keys of the Ubuntu archive',
+            'name' => 'ubuntu-keyring'
+          },
+          {
+            'epoch' => undef,
+            'version' => '1.325',
+            'system' => 'apt',
+            'update' => 'ubuntu-minimal',
+            'desc' => 'amd64                                                                                                                              Minimal core of Ubuntu',
+            'name' => 'ubuntu-minimal'
+          },
+          {
+            'update' => 'ucf',
+            'desc' => 'all                                                                                                                                Update Configuration File(s): preserve user changes to config files',
+            'name' => 'ucf',
+            'version' => '3.0027+nmu1',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'name' => 'udev',
+            'desc' => 'amd64                                                                                                                              /dev/ and hotplug management daemon',
+            'update' => 'udev',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '204-5ubuntu20.20'
+          },
+          {
+            'epoch' => undef,
+            'version' => '6.0-9ubuntu1.5',
+            'system' => 'apt',
+            'update' => 'unzip',
+            'desc' => 'amd64                                                                                                                              De-archiver for .zip files',
+            'name' => 'unzip'
+          },
+          {
+            'update' => 'upstart',
+            'desc' => 'amd64                                                                                                                              event-based init daemon',
+            'name' => 'upstart',
+            'version' => '1.12.1-0ubuntu4.2',
+            'epoch' => undef,
+            'system' => 'apt'
+          },
+          {
+            'version' => '0.100.0-16',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'ureadahead',
+            'desc' => 'amd64                                                                                                                              Read required files in advance',
+            'name' => 'ureadahead'
+          },
+          {
+            'name' => 'util-linux',
+            'desc' => 'amd64                                                                                                                              Miscellaneous system utilities',
+            'update' => 'util-linux',
+            'system' => 'apt',
+            'version' => '2.20.1-5.1ubuntu20.9',
+            'epoch' => undef
+          },
+          {
+            'name' => 'vim-common',
+            'update' => 'vim-common',
+            'desc' => 'amd64                                                                                                                              Vi IMproved - Common files',
+            'system' => 'apt',
+            'version' => '7.4.052-1ubuntu3.1',
+            'epoch' => '2'
+          },
+          {
+            'epoch' => '2',
+            'version' => '7.4.052-1ubuntu3.1',
+            'system' => 'apt',
+            'update' => 'vim-tiny',
+            'desc' => 'amd64                                                                                                                              Vi IMproved - enhanced vi editor - compact version',
+            'name' => 'vim-tiny'
+          },
+          {
+            'version' => '1.831',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'webmin',
+            'desc' => 'all                                                                                                                                web-based administration interface for Unix systems',
+            'name' => 'webmin'
+          },
+          {
+            'name' => 'wget',
+            'update' => 'wget',
+            'desc' => 'amd64                                                                                                                              retrieves files from the web',
+            'system' => 'apt',
+            'epoch' => undef,
+            'version' => '1.15-1ubuntu1.14.04.2'
+          },
+          {
+            'version' => '0.52.15-2ubuntu5',
+            'epoch' => undef,
+            'system' => 'apt',
+            'update' => 'whiptail',
+            'desc' => 'amd64                                                                                                                              Displays user-friendly dialog boxes from shell scripts',
+            'name' => 'whiptail'
+          },
+          {
+            'name' => 'xkb-data',
+            'desc' => 'all                                                                                                                                X Keyboard Extension (XKB) configuration data',
+            'update' => 'xkb-data',
+            'system' => 'apt',
+            'version' => '2.10.1-1ubuntu1',
+            'epoch' => undef
+          },
+          {
+            'version' => '1.2.8.dfsg-1ubuntu1',
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'amd64                                                                                                                              compression library - runtime',
+            'update' => 'zlib1g',
+            'name' => 'zlib1g'
+          }
+        ];

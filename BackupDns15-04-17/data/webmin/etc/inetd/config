@@ -1,0 +1,16 @@
+rpc_file=/etc/rpc
+restart_command=killall -HUP inetd
+qm_mode=0
+services_file=/etc/services
+protocols_file=/etc/protocols
+allow_file=/etc/hosts.allow
+extended_inetd=1
+tcpd_path=/usr/sbin/tcpd
+sort_mode=0
+deny_file=/etc/hosts.deny
+display_max=100
+rpc_protocols=tcp udp
+ipv6=0
+rpc_inetd=1
+inetd_conf_file=/etc/inetd.conf
+show_empty=1

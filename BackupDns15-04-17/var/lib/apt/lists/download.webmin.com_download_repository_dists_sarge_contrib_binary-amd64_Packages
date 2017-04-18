@@ -1,0 +1,61 @@
+Package: usermin
+Version: 1.701
+Architecture: all
+Depends: perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, apt-show-versions
+Pre-Depends: perl
+Installed-Size: 60324
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Provides: usermin
+Replaces: usermin-at, usermin-changepass, usermin-chfn, usermin-commands, usermin-cron, usermin-cshrc, usermin-fetchmail, usermin-forward, usermin-gnupg, usermin-htaccess, usermin-htpasswd, usermin-mailbox, usermin-man, usermin-mysql, usermin-plan, usermin-postgresql, usermin-proc, usermin-procmail, usermin-quota, usermin-schedule, usermin-shell, usermin-spamassassin, usermin-ssh, usermin-tunnel, usermin-updown, usermin-usermount, usermin-filemin, usermin-authentic-theme
+Priority: optional
+Section: admin
+Filename: pool/contrib/u/usermin/usermin_1.701_all.deb
+Size: 15874446
+SHA256: 12aba94ac748abf45f366c45b079db28c88b029483639da92197b2183ad71fec
+SHA1: e50e48e35b1eb3a3a068c5f55521020c1fad6bec
+MD5sum: 2a38088c0a26bfbee13a055bb0fdbb82
+Description: web-based user account administration interface for Unix systems
+  After installation, enter the URL http://localhost:20000/ into your browser
+  and login as any user on your system.
+
+Package: usermin-webmail
+Version: 1.701
+Architecture: all
+Depends: perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, apt-show-versions
+Pre-Depends: perl
+Installed-Size: 65000
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Provides: usermin
+Replaces: usermin-at, usermin-changepass, usermin-chfn, usermin-commands, usermin-cron, usermin-cshrc, usermin-fetchmail, usermin-forward, usermin-gnupg, usermin-htaccess, usermin-htpasswd, usermin-mailbox, usermin-man, usermin-mysql, usermin-plan, usermin-postgresql, usermin-proc, usermin-procmail, usermin-quota, usermin-schedule, usermin-shell, usermin-spamassassin, usermin-ssh, usermin-tunnel, usermin-updown, usermin-usermount, usermin-filemin, usermin-authentic-theme
+Priority: optional
+Section: admin
+Filename: pool/contrib/u/usermin-webmail/usermin-webmail_1.701_all.deb
+Size: 18088008
+SHA1: f54f6ea0eeea87dace919b8f1d5b3a1dc6d7ffe8
+MD5sum: 293140055a354569759a0c91759c2764
+Description: web-based user account administration interface for Unix systems
+  After installation, enter the URL http://localhost:20000/ into your browser
+  and login as any user on your system.
+
+Package: webmin
+Version: 1.831
+Architecture: all
+Depends: perl, libnet-ssleay-perl, openssl, libauthen-pam-perl, libpam-runtime, libio-pty-perl, apt-show-versions, python
+Pre-Depends: perl
+Installed-Size: 156288
+Maintainer: Jamie Cameron <jcameron@webmin.com>
+Provides: webmin
+Replaces: webmin-adsl, webmin-apache, webmin-bandwidth, webmin-bind, webmin-burner, webmin-cfengine, webmin-cluster, webmin-core, webmin-cpan, webmin-dhcpd, webmin-exim, webmin-exports, webmin-fetchmail, webmin-firewall, webmin-freeswan, webmin-frox, webmin-fsdump, webmin-grub, webmin-heartbeat, webmin-htaccess, webmin-inetd, webmin-jabber, webmin-ldap-netgroups, webmin-ldap-user-simple, webmin-ldap-useradmin, webmin-lilo, webmin-logrotate, webmin-lpadmin, webmin-lvm, webmin-mailboxes, webmin-mon, webmin-mysql, webmin-nis, webmin-openslp, webmin-postfix, webmin-postgresql, webmin-ppp, webmin-pptp-client, webmin-pptp-server, webmin-procmail, webmin-proftpd, webmin-pserver, webmin-quota, webmin-samba, webmin-sarg, webmin-sendmail, webmin-shorewall, webmin-slbackup, webmin-smart-status, webmin-snort, webmin-software, webmin-spamassassin, webmin-squid, webmin-sshd, webmin-status, webmin-stunnel, webmin-updown, webmin-usermin, webmin-vgetty, webmin-webalizer, webmin-wuftpd, webmin-wvdial, webmin-xinetd, webmin-filemin, webmin-authentic-theme
+Priority: optional
+Section: admin
+Filename: pool/contrib/w/webmin/webmin_1.831_all.deb
+Size: 15111206
+SHA256: e8eb8cb2e7c90afeab03749d85c70f0112ce157ca6002d815f4c821bfae632f5
+SHA1: a1eb1186412505fcda195b3097262eab0c470d0c
+MD5sum: 36f9a40926f35825eb0530289f2b4080
+Description: web-based administration interface for Unix systems
+  Using Webmin you can configure DNS, Samba, NFS, local/remote filesystems
+  and more using your web browser.  After installation, enter the URL
+  https://localhost:10000/ into your browser and login as root with your root
+  password.
+
