@@ -1,0 +1,8 @@
+097bc6708eaff5dc05127d97e82e720b  bin/cpio
+2a2ffb6a5e496982956dc161e4c24adf  bin/mt-gnu
+bce4b56339255079f9e2d7d29c665662  usr/share/doc/cpio/changelog.Debian.gz
+c328f3bd2d58f2cd3560748c5353573e  usr/share/doc/cpio/NEWS.gz
+9fdb814644e8104ff6a1a7dc8e431186  usr/share/doc/cpio/README.gz
+b1ba85ff5909b604ff9fa18ae7f0200b  usr/share/doc/cpio/copyright
+208fa31f36d6d459e60b985ad4e6275f  usr/share/man/man1/cpio.1.gz
+4c672a2bff20f1f5399f7b0147b2a9cd  usr/share/man/man1/mt-gnu.1.gz
