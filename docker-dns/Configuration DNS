@@ -1,0 +1,70 @@
+Basé sur le tuto de developpez.com.
+
+Dans named.conf.local
+On rajoute les lignes:
+Zone “wt11.ephec.ti-be’{
+	Type master;
+	File “/etc/bind/db.wt11.ephec-ti.be”;
+};
+
+Zone “39.137.79.in-addr.arpa” in{
+	Type master;
+	File “/etc/bind/rev.wt11.ephec-ti.be”;
+};
+
+(Mettre tout en minuscule!)
+
+Dans /etc/bind, crée le fichier db.wt11.ephec-ti.be. On y insère les lignes suivantes:
+//Le . est remplacé par un @, juste pour le root, donc root@wt11...
+
+$TTL 604800
+@	IN	SOA	wt11.ephec-ti.be.	Root.wt11.ephec-ti.be.	(
+	20080605; //Nombre associé au SOA
+	604800; //temps en ms pour le refresh
+	86400;
+	2419200;
+	404800;
+);
+
+@	IN 	NS	wt11.ephec-ti.be.	(
+Www	IN	A	79.137.39.0
+mail 	IN	A	79.137.39.0
+Mail	IN	MX	10	mail.wt11.ephec-ti.be.
+);
+
+//Fin du fichier
+Désormais il faut faire la même chose pour le reverse, on créer un fichier “rev.wt11.ephec-ti.be
+$TTL 604800
+39.137.79.in-addr.arpa	IN	SOA	wt11.ephec-ti.be.	Root.wt11.ephec-ti.be. (
+	20080605; //Nombre associé au SOA
+	604800; //temps en ms pour le refresh
+	86400;
+	2419200;
+	404800;
+);
+@	IN	NS 	wt11.ephec-ti.be.
+10	IN	PTR	mail.wt11.ephec-ti.be.
+10	IN	PTR	www.wt11.ephec-ti.be.
+
+Restart le bind: /etc/init.d/bind9 start
+
+Aller dans le résolveur pour dire que celui-ci existe et qu’il peut être utilisé.
+Modifier le fichier le fichier /etc/resolv.conf
+Laisser absolument le DNS d’ovh, mettre nameserver ip_dns ne fonctionne pas!
+
+Vérification
+Nslookup wt11.ephec-ti.be
+
+Dans les logs
+Dock
+
+VIRTUALHOSTING
+Rajouter un .conf:
+
+
+Enlever les www des serverNames
+
+Activer les 3 sites (dans le dockerfile)
+RUN ln -s /etc/apache/sites-available/www.wt11.ephec-ti.be /etc/
+
+Ne pas oublier les .conf pour les fichiers, rajouter à la fin de chaque fichier un .conf sinon ça ne fonctionnera pas
