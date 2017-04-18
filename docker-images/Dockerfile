@@ -13,6 +13,19 @@ COPY content/ /var/www/
 # Copie le dossier avec les configs qui gèrent les != redirections
 COPY sites-available/ /etc/apache2/sites-available/
 
+# Activer le SSL (HTTPS)
+RUN a2enmod ssl
+RUN mkdir /etc/apache2/ssl
+COPY ssl/ /etc/apache2/ssl/
+# RUN echo "BE"
+# RUN echo "LLN"
+# RUN echo "LLN"
+# RUN echo "EPHEC"
+# RUN echo "EPHEC"
+# RUN echo "wt11.ephec-ti.be"
+# RUN echo "root@wt11.ephec-ti.be"
+
+
 # Identifie que le site existe dans le serveur web
 RUN a2ensite www.wt11.ephec-ti.be
 RUN a2ensite b2b.wt11.ephec-ti.be
@@ -24,10 +37,14 @@ RUN ln -s /etc/apache/sites-available/www.wt11.ephec-ti.be /etc/apache2/sites-en
 RUN ln -s /etc/apache/sites-available/b2b.wt11.ephec-ti.be /etc/apache2/sites-enabled/b2b.wt11.ephec-ti.be
 RUN ln -s /etc/apache/sites-available/intranet.wt11.ephec-ti.be /etc/apache2/sites-enabled/intranet.wt11.ephec-ti.be
 
+
+
+
+
 #=============================================================================
 # Pour Build le Dockerfile
 # docker build -t res/apache_php .
 #
 # Pour lancer Apache
-# docker run -d -p 80:80 res/apache_php
+# docker run --name Apache -d -p 80:80 res/apache_php
 #=============================================================================
