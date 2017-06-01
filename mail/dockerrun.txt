@@ -1,0 +1,2 @@
+docker run -p 25:25 -p 110:110 -p 143:143 -p 587:587 -d -e smtp_user=test:test,john:john -e maildomain=mail.wt11.ephec-ti.be --name mailserver finalmail
+-
